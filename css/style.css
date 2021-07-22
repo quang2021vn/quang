@@ -1,156 +1,496 @@
+@charset "utf-8";
 /* CSS Document */
-body{
-	background-image: url("../image/simpleruleex.jpg")
+*{
+	padding: 0;
+	margin: 0;
 }
 .wrapper{
-	width: 100%;
-}
-.header{
-	width: 100%;
-	height: 200px;
-/*	background: #ECA4A5;*/
-	justify-content: center;
-	display: flex;
-}
-.logo{
-	width: 100%;
-	height: 40px;
-/*	background: #720608;*/
-	justify-content: center;
-	display: flex;
-/*	overflow: hidden;*/
-		
-}
-.logo img{
-	height: 290px;
-	
-}
-
-.header-bottom{
-	width: 100%;
-	height: 200px;
-	
-}
-.menu{
-	width: 100%;
-	font-family: "roboto";
-	font-size: 25px;
-	color: black;
-	line-height: 205px;
-	text-align: center;
-	
-	
-}
-.banner1{
-	text-align: center;
-	font-family: 'roboto';
-/*	background: #B9696A;*/
-	letter-spacing: 2px;
 }
 .main{
 	width: 100%;
-/*	background: Grey;*/
-}
-.banner2{
-	text-align: center;
-	font-family: 'roboto';
-/*	background: #B9696A;*/
-	letter-spacing: 2px;
-	
-}
-
-	
-/*
-.bannerfish{
-	width: 100%;
-	height: 36px;
-	background: #D7F48C;
-	font-family: 'Mulish', sans-serif;
-	justify-content: center;
-*/
-.ten{
-	display: flex;
-/*	background: #741D1E;*/
-	justify-content: center;
-}
-.ca{
-	width: 200px;
-/*	background: #86A9E7;*/
-	margin: 118.1px;
-	text-align: center;
-	margin-top: auto;
-	margin-bottom: auto;
-	font-family: 'Mulish', sans-serif;
-	
-
-}
-
-.sectione{
-	width: 70%;
-	height: 100px;
-/*	background: #6A659B;*/
-	font-family: 'Mulish', sans-serif;
-	margin: 1rem auto;
-	text-align: center;
-	font-size: 25px;
-}
-.outer{
-	display: flex;
-	justify-content: center;
-	margin-top: 10PX;
-}
-.box{
-	width: 400px;
-	height: 600px;
-	background: #C05C5E;
-	margin: 20px;
-	
-}
-.img{
-	height: 400px;
-	width: 400px;
-	background: #EB2C2F;
-}
-.cabottom{
-	display: flex;
-	justify-content: center;
-	margin-top: -120px
-}
-.boxca{
-	width: 190px;
-	height: 50px;
-	background: #CB4B4B;
-	margin: 124px;
-	display: flex;
-	justify-content: center;
-	margin-bottom: 20px;
-    line-height: 50px;
-	font-family: 'roboto';
-	
-	
-	
-}
-.boxca a{
-	text-decoration: none;
-	color: black;
-}
-.banner3{
-	text-align: center;
-	font-family: 'roboto';
-/*	background: #B9696A;*/
-	letter-spacing: 2px;
-}
-
-.sectionebottom{
-	width: 70%;
 	height: 100%;
-/*	background: #6A659B;*/
-	font-family: 'Mulish', sans-serif;
-	margin: 1rem auto;
-	text-align: center;
-	font-size: 25px;
-	margin-bottom: 30px;
 }
+.header{
+	width: 100%;
+/*	background:  rgba(13,12,12,1.00);*/
+	padding: 20px 0;
+	
+}
+.container-fluid{
+	width: 100%;
+}
+.container{
+	width: 100%;
+}
+.logo{
+	width: 15%;
+	position: absolute;
+/*	background: rgba(29,92,132,1.00);*/
+}
+.text-box3 h1{
+	padding-top: 40px;
+	text-align: center;
+}
+.logo a{
+	font-size: 30px;
+	color: rgba(0,0,0,0.91);
+	font-family: roboto;
+	text-decoration: none;
+}
+.logo a:hover{
+	color: rgba(77,77,77,1.00);
+}
+.nav ul{
+	display: flex;
+	justify-content: flex-end;
+	list-style: none;
+	align-items: center;
+/*	background: pink;*/
+	position: absolute;
+	right: 150px;
+	
+}
+.nav ul li{
+	margin: 0 24px;
+/*	color: aqua;*/
+}
+.nav ul li a{
+	text-decoration: none;
+	color: rgba(0,0,0,0.91);
+	font-family: roboto;
+	height: 20px;
+    text-align: center;
+    border: 2px dashed #f69c55;
+/*	background-color: aqua;*/
+}
+
+.picture{
+	background: url( "../img/michu-dang-quang-BH41Vce43SM-unsplash.jpg") no-repeat center;
+	padding-top:40%;
+	background-size: cover;
+}
+.text-box3{
+	height: 20px;
+	position: relative;
+	margin: auto;
+}
+
+.text-box{
+/*	background:  rgba(0,0,0,0.1);*/
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+	text-align: center;
+/*	background-color: aqua;*/
+	width: 100%;
+	letter-spacing: 2px;
+}
+.text-box {
+	font-family: 'Roboto', sans-serif;
+	color: white;
+}
+.text-box h3{
+	font-family: "San Francisco Display Light";
+	font-size: 80px;
+}
+.text-box h1{
+	font-size: 150px;
+}
+.text-box p{
+	font-family:'Roboto', sans-serif;
+	font-size: 40px;
+	color: white;
+}
+/*header*/
+.about{
+	align-content: center;
+	justify-content: center;
+}
+.tell{
+	font-size: 20px;
+	height: 115px	;
+/*	background-color: red;*/
+	text-align: center;
+	padding: 20px 0;
+	font-family: 'San Francisco Display Light';
+}
+.text-box2{
+	position: relative;
+	height: 50px;
+	background-color: orange;
+	
+}
+
+.line{
+	position: absolute;
+	left: 0;
+	right: 0;
+	bottom: 4;
+	width: 1215px;
+	height: 0px;
+    border: 2px solid #BDBDBD;
+	margin-bottom: 20px;
+}
+.time{
+	padding-top:50px;
+	height: 200px;
+/*	background: green;*/
+	position: relative;
+}
+.time h1{
+	font-family: "roboto";
+	font-size: 65px;
+	line-height: 65px;
+}
+.time p{
+	font-family: "San Francisco Display Light";
+	font-size: 20px;
+	line-height: 28px;
+}
+.canhle{
+	margin: 0;
+  position: absolute;
+  top: 50%;
+  -ms-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+.picture1{
+	
+	background-image: url("../img/tony-pham-WykFLHcscSo-unsplash.jpg");
+	background-size: cover;
+	background-repeat:no-repeat;
+    
+	height: 100%;
+}
+.place{
+	padding: 40px 0;
+}
+
+
+.introduce{
+	position: relative;
+	height: 50px;
+/*	background: blue;*/
+	margin-top: 44px;
+}
+.line1{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 0;
+	width: 1215px;
+	margin: auto;
+    border: 2px solid #BDBDBD;
+}
+
+.place{
+	padding-top: 110px ;
+}
+.benthanh{
+	height: 300px;
+	background-size: cover;
+	background-image: url( "../img/ben-thanh-market-thebroadlife-travel-hochiminhcity-vietnam.jpeg");
+	position: relative;
+}
+.holder{
+	height: 300px;
+	background: lightblue;
+	position: relative;
+	overflow: hidden;
+}
+.content{
+	width: 383px;
+	height: 100%;
+	display: flex;
+	font-family: roboto;
+	font-size: 46px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background: rgba(0,156,175,0.70);
+	color: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition-duration: 0.4s;
+}
+.holder:hover .content{
+	opacity: 1;
+	visibility: visible;
+}
+.dinhdoclap{
+	height: 300px;
+	background-size: cover;
+	background-image: url( "../img/Dinh_DocLap-(02).jpg");
+}
+.holder3{
+	height: 300px;
+	background: lightblue;
+	position: relative;
+	overflow: hidden;
+}
+.content3{
+	width: 383px;
+	height: 100%;
+	display: flex;
+	font-family: roboto;
+	font-size: 46px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background:   rgba(91,249,173,0.70);
+	color: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition-duration: 0.4s;
+}
+.holder3:hover .content3{
+	opacity: 1;
+	visibility: visible;
+}
+.nhathoducba{
+	height: 300px;
+	background-size: cover;
+	background-image: url( "../img/michu-dang-quang-BH41Vce43SM-unsplash.jpg");
+}
+.holder2{
+	height: 300px;
+	background: lightblue;
+	position: relative;
+	overflow: hidden;
+}
+.content2{
+	width: 383px;
+	height: 100%;
+	display: flex;
+	font-family: roboto;
+	font-size: 46px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background:  rgba(255,79,81,0.70);
+	color: white;
+	position: absolute;
+	top: 0;
+	left: 0;
+	opacity: 0;
+	visibility: hidden;
+	transition-duration: 0.4s;
+}
+.holder2:hover .content2{
+	opacity: 1;
+	visibility: visible;
+}
+.text-box3{
+	height: 55px;
+	position: relative;
+	left: 0;
+	right: 0;	
+}
+.line3{
+   position: absolute; 
+   left: 0; 
+   right: 0; 
+	top: 60px;
+    margin-left: auto; 
+    margin-right: 20px; 
+    width: 100px; /* Need a specific value to work */
+    border: 2px solid #BDBDBD;
+}
+.text-box1{
+	font-family: 'Roboto', sans-serif;
+/*	background:  rgba(0,0,0,0.1);*/
+	text-align: center;
+/*	background-color: aqua;*/
+	width: 100%;
+	letter-spacing: 2px;
+	padding-top: 40px;
+}
+.text-box1 p{
+	font-family: "San Francisco Display Light";
+}
+.text-box3{
+	font-family: 'Roboto', sans-serif;
+/*	background:  rgba(0,0,0,0.1);*/
+	text-align: center;
+/*	background-color: aqua;*/
+	width: 100%;
+	letter-spacing: 2px;
+}
+.text-box3 p{
+	font-family: 'San Francisco Display Light';
+}
+.food{
+	padding-top: 120px;;
+}
+.food1{
+	background-size: cover;
+	background-image: url("../img/khoi-mat-cong-ra-quan-vi-cong-thuc-com-tam-chuan-vi-nhat-ngay-day.jpg");
+	height: 100%;
+}
+.comtam{
+	height: 300px;
+	border-radius: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.content4{
+	width: 383px;
+	height: 100%;
+	display: flex;
+	font-family: roboto;
+	font-size: 40px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background:  rgba(255,79,81,0.70);
+	color: white;
+	position: absolute;
+	top: 50%;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+
+    transform: translate(-50%, -50%); /* This is a shorthand of
+                                       translateX(-50%) and translateY(-50%) */
+	opacity: 0;
+	visibility: hidden;
+	transition-duration: 0.4s;
+}
+.comtam:hover .content4{
+	opacity: 1;
+	visibility: visible;
+}
+.food2{
+	background-size: cover;
+	background-image: url( "../img/d96518_a8a02679a0484c6ca37caa0f1fc7387c_mv2.jpg");
+	height: 100%;
+}
+.banhmithit{
+	height: 300px;
+	border-radius: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.content5{
+	width: 383px;
+	height: 100%;
+	display: flex;
+	font-family: roboto;
+	font-size: 40px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background:  rgba(255,79,81,0.70);
+	color: white;
+	position: absolute;
+	top: 50%;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+
+    transform: translate(-50%, -50%); /* This is a shorthand of
+                                       translateX(-50%) and translateY(-50%) */
+	opacity: 0;
+	visibility: hidden;
+	transition-duration: 0.4s;
+}
+.banhmithit:hover .content5{
+	opacity: 1;
+	visibility: visible;
+}
+.food3{
+	background-size: cover;
+	background-image: url( ../img/kinh-nghiem-nau-bun-bo-hue-ngon.jpg);
+	height: 100%;
+}
+.bunbohue{
+	height: 300px;
+	border-radius: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.content6{
+	width: 383px;
+	height: 100%;
+	display: flex;
+	font-family: roboto;
+	font-size: 40px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background:  rgba(255,79,81,0.70);
+	color: white;
+	position: absolute;
+	top: 50%;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+
+    transform: translate(-50%, -50%); /* This is a shorthand of
+                                       translateX(-50%) and translateY(-50%) */
+	opacity: 0;
+	visibility: hidden;
+	transition-duration: 0.4s;
+}
+.bunbohue:hover .content6{
+	opacity: 1;
+	visibility: visible;
+}
+.food4{
+	background-size: cover;
+	background-image: url( "../img/hu-tieu-nam-vang.jpg");
+	height: 100%;
+}
+.hutieunamvang{
+	height: 300px;
+	border-radius: 100%;
+	overflow: hidden;
+	position: relative;
+}
+.content7{
+	width: 383px;
+	height: 100%;
+	display: flex;
+	font-family: roboto;
+	font-size: 40px;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+	background:  rgba(255,79,81,0.70);
+	color: white;
+	position: absolute;
+	top: 50%;  /* position the top  edge of the element at the middle of the parent */
+    left: 50%; /* position the left edge of the element at the middle of the parent */
+
+    transform: translate(-50%, -50%); /* This is a shorthand of
+                                       translateX(-50%) and translateY(-50%) */
+	opacity: 0;
+	visibility: hidden;
+	transition-duration: 0.4s;
+}
+.hutieunamvang:hover .content7{
+	opacity: 1;
+	visibility: visible;
+}
+.introduce3{
+	padding-top: 50px;
+}
+.thaocamvien{
+	padding-top: 40px;
+	font-family: roboto;
+	text-align: left;
+	
+}
+.thaocamvien p{
+	font-family: "San Francisco Display Light";
+	justify-content: flex-end;
+}
+.pic{
+	background-image: url( "../img/thao-cam-vien-sai-gon-14.jpg");
+	width: 100%;
+}
+
 .footer{
 	width: 100%;
 	display: block;
@@ -206,11 +546,4 @@ body{
 	padding-bottom: 5px;
 	text-decoration: none;
 }
-.box .img img{
-	width: 400px;
-	height: 600px;
-	
-}
-
-	
 
